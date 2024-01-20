@@ -89,7 +89,7 @@ nav ul li a:hover::after{
     margin-top: 30px;
     padding: 80px 50px;
     color: #ababab;
-    background: #232D3F;
+    background: #262626;
     border-radius: 1%;
 
 }
@@ -113,6 +113,7 @@ nav ul li a:hover::after{
     font-size: 40px;
     font-weight: 600;
     color: #fff;
+    margin-bottom: 20px;
 }
 .tab-titles{
     display: flex;
@@ -153,6 +154,9 @@ nav ul li a:hover::after{
 }
 .tab-contents.active-tab{
     display: block;
+}
+#about:hover{
+    background: #232D3F;
 }
 
 /* ...................Coding Profiles............... */
@@ -253,7 +257,7 @@ nav ul li a:hover::after{
 
 /* ----------------------------------portfolio--------------------- */
 
-#portfolio{
+#projects{
     padding: 50px 0;
 }
 .work-list{

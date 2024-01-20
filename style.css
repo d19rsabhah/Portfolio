@@ -10,9 +10,22 @@ html{
 }
 
 body{
-    background: #080808;
+    /* background: #080808; */
     color: #ffffff;
-
+    background: linear-gradient(45deg, #d2001a, #365486, #FF9800, #A1EEBD);
+    background-size: 300% 300%;
+    animation: color 12s ease-in-out infinite;
+}
+@keyframes color{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
 }
 #header{
     width: 100%;
@@ -20,6 +33,7 @@ body{
     background-image: url(images/background.png);
     background-size: cover;
     background-position: center;
+    border-radius: 1%;
 }
 .container{
     padding: 10px 10%;
@@ -72,8 +86,12 @@ nav ul li a:hover::after{
 }
 /*-------------about----------------*/
 #about{
-    padding: 80px 0;
+    margin-top: 30px;
+    padding: 80px 50px;
     color: #ababab;
+    background: #232D3F;
+    border-radius: 1%;
+
 }
 .row{
     display: flex;
@@ -137,19 +155,73 @@ nav ul li a:hover::after{
     display: block;
 }
 
-/* ...................services............... */
+/* ...................Coding Profiles............... */
 
-#services{
+#coding-profiles{
     padding: 30px 0;
 }
-.services-list{
+.coding-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 30px;
+
+}
+.coding-list div p{
+    font-size: 20px;
+    color: #F8CBA6;
+}
+.coding-list div{
+    background: #232D3F;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background 0.5s, transform 0.5s;
+}
+.coding-list div img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.50rem;
+}
+.coding-list div i{
+    font-size: 50px;
+    margin-bottom: 30px;
+
+}
+.coding-list div h2{
+    font-size: 40px;
+    font-weight: 500;
+    color: #7E2553;
+    margin-bottom: 15px;
+}
+.coding-list div a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.coding-list div:hover{
+    background: #FF6868;
+    transform: translate(-10px);
+}
+
+
+
+/* ...................certificates............... */
+
+#certificates{
+    padding: 30px 0;
+}
+.certificates-list{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 40px;
     margin-top: 50px;
 
 }
-.services-list div{
+.certificates-list div{
     background: #262626;
     padding: 40px;
     font-size: 13px;
@@ -157,26 +229,26 @@ nav ul li a:hover::after{
     border-radius: 10px;
     transition: background 0.5s, transform 0.5s;
 }
-.services-list div i{
+.certificates-list div i{
     font-size: 50px;
     margin-bottom: 30px;
 
 }
-.services-list div h2{
+.certificates-list div h2{
     font-size: 30px;
     font-weight: 500;
     margin-bottom: 15px;
 }
-.services-list div a{
+.certificates-list div a{
     text-decoration: none;
     color: #fff;
     font-size: 12px;
     margin-top: 20px;
     display: inline-block;
 }
-.services-list div:hover{
+.certificates-list div:hover{
     background: #ff004f;
-    transform: translate(-10px);
+    transform: translate(+10px);
 }
 
 /* ----------------------------------portfolio--------------------- */
@@ -351,7 +423,9 @@ nav .fa-solid{
         
     }
     nav ul{
-        background: #ff004f;
+        background: linear-gradient(45deg, #d2001a, #365486, #FF9800, #A1EEBD);
+        background-size: 300% 300%;
+        animation: color 12s ease-in-out infinite;
         position: fixed;
         top: 0;
         right: -200px;
@@ -359,6 +433,17 @@ nav .fa-solid{
         height: 100vh;
         padding-top: 50px;
         z-index: 2;
+    }
+    @keyframes color{
+        0%{
+            background-position: 0 50%;
+        }
+        50%{
+            background-position: 100% 50%;
+        }
+        100%{
+            background-position: 0 50%;
+        }
     }
     nav ul li{
         display: block;

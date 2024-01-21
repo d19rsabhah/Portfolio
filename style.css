@@ -28,15 +28,18 @@ body{
     }
 }
 #header{
-    width: 100%;
+     width: 100%;
     height: 100vh;
     background-image: url(images/background.png);
+    /* background: linear-gradient(45deg, #d20db8, #0f9b9b); */
     background-size: cover;
     background-position: center;
     border-radius: 1%;
 }
+
 .container{
     padding: 10px 10%;
+    
 }
 nav{
     display: flex;
@@ -173,7 +176,7 @@ nav ul li a:hover::after{
 }
 .coding-list div p{
     font-size: 20px;
-    color: #F8CBA6;
+    color: #fff;
 }
 .coding-list div{
     background: #232D3F;
@@ -196,7 +199,7 @@ nav ul li a:hover::after{
 .coding-list div h2{
     font-size: 40px;
     font-weight: 500;
-    color: #7E2553;
+    color: #fff;
     margin-bottom: 15px;
 }
 .coding-list div a{
@@ -232,6 +235,10 @@ nav ul li a:hover::after{
     font-weight: 300;
     border-radius: 10px;
     transition: background 0.5s, transform 0.5s;
+}
+.certificates-list div img{
+    height: 50px;
+    width: 40px;
 }
 .certificates-list div i{
     font-size: 50px;

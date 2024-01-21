@@ -12,7 +12,7 @@ html{
 body{
     /* background: #080808; */
     color: #ffffff;
-    background: linear-gradient(45deg, #d2001a, #365486, #FF9800, #A1EEBD);
+    background: linear-gradient(45deg, #3f040b, #1c4385, #e39a2c, #129e46);
     background-size: 300% 300%;
     animation: color 12s ease-in-out infinite;
 }

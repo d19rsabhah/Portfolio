@@ -10,7 +10,6 @@ This repository contains the source code for my personal portfolio website.
 - [Usage](#usage)
 - [Customization](#customization)
 - [Technologies Used](#technologies-used)
-- [License](#license)
 
 ## Demo
 
@@ -39,7 +38,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 1. Clone the repository: 
 - git clone https://github.com/your-username/your-portfolio.git
   
-#Usage
+# Usage
 - Open the project in your favorite code editor.
 - This portfolio website showcases my personal information, coding profiles, certificates, projects, and provides a way to contact me.
 
@@ -61,5 +60,3 @@ Follow these instructions to get a copy of the project up and running on your lo
 - JavaScript
 - Font Awesome for icons
 
-# License
-- This project is licensed under the MIT License.

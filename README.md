@@ -36,7 +36,30 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 ### Installation
 
-1. Clone the repository:
+1. Clone the repository: 
+- git clone https://github.com/your-username/your-portfolio.git
+  
+#Usage
+- Open the project in your favorite code editor.
+- This portfolio website showcases my personal information, coding profiles, certificates, projects, and provides a way to contact me.
 
-```bash
-git clone https://github.com/your-username/your-portfolio.git
+# Customization
+
+## Changing Content
+- Open index.html file.
+- Modify the content within sections like About Me, Coding Profiles, Certificates, Projects, and Contact.
+- Save your changes.
+- 
+## Styling
+- Open style.css file.
+- Customize the styles under each section or add new styles as needed.
+- Save your changes.
+  
+# Technologies Used
+- HTML
+- CSS
+- JavaScript
+- Font Awesome for icons
+
+# License
+- This project is licensed under the MIT License.

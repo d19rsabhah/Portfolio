@@ -463,8 +463,8 @@ nav .fa-solid{
         background-image: url(images/phone-background.png);
     }
     .header-text{
-        margin-top: 420px;
-        font-size: 14px;
+        margin-top: 440px;
+        font-size: 12px;
     }
     .header-text h1{
         font-size: 30px;
@@ -475,7 +475,7 @@ nav .fa-solid{
         
     }
     nav ul{
-        background: linear-gradient(45deg, #d2001a, #365486, #FF9800, #A1EEBD);
+        background: linear-gradient(45deg,  #c5f54e, #053331, #c53a3e , #0a1a4d);
         background-size: 300% 300%;
         animation: color 12s ease-in-out infinite;
         position: fixed;
@@ -485,6 +485,94 @@ nav .fa-solid{
         height: 100vh;
         padding-top: 50px;
         z-index: 2;
+        animation: color 10s ease-in-out infinite;
+    }
+    @keyframes color{
+        0%{
+            background-position: 0 50%;
+        }
+        50%{
+            background-position: 100% 50%;
+        }
+        100%{
+            background-position: 0 50%;
+        }
+    }
+    nav ul li{
+        display: block;
+        margin: 25px;
+
+    }
+    nav ul .fa-solid{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+
+    .sub-title{
+        font-size: 40px;
+    }
+    .about-col-1, .about-col-2{
+        flex-basis: 100%;
+    }
+    .about-col-1{
+        margin-bottom: 30px;
+    }
+    .about-col-2{
+        font-size: 14px;
+    }
+    .tab-links{
+        font-size: 16px;
+        margin-right: 20px;
+    }
+    .contact-left, .contact-right{
+        flex-basis: 100%;
+    }
+    .contact-right{
+        font-size: 14px;
+    }
+}
+#msg{
+    color: #61b752;
+    margin-top: -40px;
+    display: block;
+}
+/* ----------------------------------css for small screen----------------- */
+
+nav .fa-solid{
+    display: none;
+
+}
+
+@media only screen and (max-width: 900px){
+    #header{
+        background-image: url(images/phone-background.png);
+    }
+    .header-text{
+        margin-top: 440px;
+        font-size: 12px;
+    }
+    .header-text h1{
+        font-size: 30px;
+    }
+    nav .fa-solid{
+        display: block;
+        font-size: 25px;
+        
+    }
+    nav ul{
+        background: linear-gradient(45deg,  #c5f54e, #053331, #c53a3e , #0a1a4d);
+        background-size: 300% 300%;
+        animation: color 12s ease-in-out infinite;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        animation: color 10s ease-in-out infinite;
     }
     @keyframes color{
         0%{

@@ -164,7 +164,7 @@ nav ul li a:hover::after{
     margin: 20px 0 40px;
 }
 .tab-links{
-    margin-right: 50px;
+    margin-right: 150px;
     font-size: 18px;
     font-weight: 500;
     cursor: pointer;
@@ -192,6 +192,9 @@ nav ul li a:hover::after{
 .tab-contents ul li span{
     color: #b54769;
     font-size: 14px;
+}
+.tab-contents ul a{
+    margin-left: 20px;
 }
 .tab-contents{
     display: none;
@@ -251,7 +254,8 @@ nav ul li a:hover::after{
     display: inline-block;
 }
 .coding-list div:hover{
-    background: #FF6868;
+    /* background: #0b7154; */
+    background: linear-gradient(45deg, #c53a3e , #0a1a4d);;
     transform: translate(-10px);
 }
 
@@ -299,7 +303,8 @@ nav ul li a:hover::after{
     display: inline-block;
 }
 .certificates-list div:hover{
-    background: #ff004f;
+    /* background: #ff004f; */
+    background: linear-gradient(45deg,  #c5f54e, #053331);;
     transform: translate(+10px);
 }
 

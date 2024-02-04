@@ -422,7 +422,7 @@ font-size: 25px;
 }
 .btn.btn2{
     display: inline-block;
-    background: #000000;
+    background: #262626;
 }
 .btn2:hover{
     background: #ff004f;
@@ -435,7 +435,7 @@ form input, form textarea{
     width: 100%;
     border: 0;
     outline: none;
-    background: #262626;
+    background: #000000;
     padding: 15px;
     margin: 15px 0;
     color: #ffffff;
